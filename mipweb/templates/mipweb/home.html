@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %} ACS-ERC, Making Impossible Possible: Research Breakthrough on [NP≠P] {% endblock %}
+
+{% block content %}
+    <div class="container-fluid text-purple text-center mt-5 pt-5">
+        <h5>Home of "Making Impossible Possible"</h5>
+        <button class="btn btn-primary btn-donor"><a href="{% url 'mip-donor' %}">Become a Donor to our Research Trust Fund</a></button>
+    </div>
+{% endblock %}
